@@ -1,0 +1,23 @@
+:root {
+  --page-gutter:   48px;
+  --header-height: 80px;
+  --v-pad:         120px;
+  --v-pad-sm:       80px;
+
+  --radius-sm:   4px;
+  --radius-md:   10px;
+  --radius-lg:   20px;
+  --radius-full: 9999px;
+
+  --border-width: 0.943px;
+  --blur-header:  10px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --page-gutter:   20px;
+    --header-height: 64px;
+    --v-pad:         56px;
+    --v-pad-sm:      44px;
+  }
+}
